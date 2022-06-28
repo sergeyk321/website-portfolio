@@ -6,8 +6,8 @@
 nav, footer, header{display: block;}
 
 body{
-    background-image: url(/img/Screenshot_82.jpg);
-    background-size: 100%;
+    background-color: black;
+    background:linear-gradient(to bottom, rgb(152, 152, 252), rgb(117, 171, 247)) repeat-x;
 }
 
 img{
@@ -23,19 +23,20 @@ img{
 }
 
 .menu_left{
-    background-color: aqua;
     flex-direction: column;
-    margin: 20px;
-    display: flex;
-    width: 150px;
-    height: 200px;
+    margin-left:10px;
+    display: block;
+    width: 130px;
+    height: 69px;
     font-size: large;
     border-style: outset;
     border-color: white;
-    border-width: 3px;
-    background-color:lemonchiffon;
+    border-width: 2px;
+    background-color:beige;
     box-shadow: 3px 3px 3px black;
-    text-align: center;
+    text-align: left;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .shapka{
@@ -53,7 +54,7 @@ img{
     width: 180px;
     height: 50px;
     text-align: center;
-    margin:0px 0px 0px 400px;
+    margin-left:400px;
     border:1px;
     float:left;
 }
@@ -64,13 +65,15 @@ img{
 }
 
 .container{
+    padding-left: 60px;
     display: flex;
     flex-direction: row;
+    margin: 10px;
 }
 
 .main{
     flex-direction: column !important;
-    max-width: 1100px;
+    max-width: 1600px;
     margin: auto;
 }
 
@@ -82,7 +85,8 @@ img{
     font-size: 4em;
     text-shadow: 2px 2px 0px black;
     cursor: default;
-    width: 550px;
+    width: 950px;
+    margin-top: 20px;
 }
 
 .right{
@@ -93,3 +97,28 @@ img{
     font-size: 1.5em;
 }
 
+.low{
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.content{
+    margin-top: 10px;
+    width: 1000px;
+    display: block;
+    padding: 0;
+    margin-left: 10px;
+    border-style: outset;
+    border-color:white;
+    border-width: 3px;
+    background-color:beige;
+    box-shadow: 2px 2px 2px black;
+    height: 750px;
+}
+
+.abz{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    font-weight: 1000;
+}
