@@ -6,13 +6,20 @@
 nav, footer, header{display: block;}
 
 body{
+    height: 969px;
     background-color: black;
     background:linear-gradient(to bottom, rgb(152, 152, 252), rgb(117, 171, 247)) repeat-x;
 }
 
-img{
-    width: 1080px;
-    height: 200px;
+.major{
+    display: flex;
+}
+
+.mainphoto{
+    display: flex;
+    margin-left: 15px;
+    width: auto;
+    height: 663px;
 }
 
 .head{
@@ -27,25 +34,17 @@ img{
     margin-left:10px;
     display: block;
     width: 143px;
-    height: 90px;
+    height: 113px;
     font-size: large;
     border-style: outset;
     border-color: white;
     border-width: 2px;
-    background-color:beige;
+    background-color:whitesmoke;
     box-shadow: 3px 3px 3px black;
     text-align: left;
     padding-right: 20px;
     padding-left: 20px;
-}
-
-.shapka{
-    width:auto;
-    height: 60px;
-    background-color:coral;
-    font-size: 20px;
-    word-spacing: 300px;
-    text-align: center;
+    border-radius: 10px;
 }
 
 .info{
@@ -62,19 +61,21 @@ img{
 #logos{
     width: 70px;
     height: 70px;
+    border-radius: 40px;
 }
 
 .container{
     padding-left: 60px;
     display: flex;
     flex-direction: row;
-    margin: 10px;
+    margin: 5px;
 }
 
 .main{
     flex-direction: column !important;
     max-width: 1600px;
     margin: auto;
+    height: 969px;
 }
 
 .header{
@@ -87,6 +88,7 @@ img{
     cursor: default;
     width: 950px;
     margin-top: 20px;
+    display: block;
 }
 
 .right{
@@ -99,11 +101,13 @@ img{
 
 .low{
     flex-direction: row;
-    margin-top: 15px;
+    margin-top: 10px;
+    height: 750px;
 }
 
 .content{
-    margin-top: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
     width: 1000px;
     display: block;
     padding: 0;
@@ -111,22 +115,40 @@ img{
     border-style: outset;
     border-color:white;
     border-width: 3px;
-    background-color:beige;
+    background-color:whitesmoke;
     box-shadow: 2px 2px 2px black;
-    height: 750px;
+    height: 100%;
 }
 
 .abz{
-    font-size: large;
-    font-family: 'Times New Roman', Times, serif;
-    margin: 20px;
+    padding-left: 5px;
+    font-size: 2.2em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 15px;
     font-weight: 1000;
 }
 
+.text{
+
+    display: block;
+    font-size: 1.9em;
+    padding-left: 20px;
+    font-weight: 400;
+}
+
 .menu_left a:hover{
-    color:darkgreen
+    color:crimson;
 }
 
 .menu_left a{
     text-decoration: none;
+}
+
+.phone{
+    font-size: 1.2em;
+}
+
+#p{
+    display: block;
+    padding-bottom: 20px;
 }
