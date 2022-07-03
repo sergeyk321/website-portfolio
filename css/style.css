@@ -6,7 +6,6 @@
 nav, footer, header{display: block;}
 
 body{
-    height: 969px;
     background-color: black;
     background:linear-gradient(to bottom, rgb(152, 152, 252), rgb(117, 171, 247)) repeat-x;
 }
@@ -20,6 +19,7 @@ body{
     margin-left: 15px;
     width: auto;
     height: 663px;
+    margin-bottom: 16px;
 }
 
 .head{
@@ -75,7 +75,6 @@ body{
     flex-direction: column !important;
     max-width: 1600px;
     margin: auto;
-    height: 969px;
 }
 
 .header{
@@ -102,7 +101,6 @@ body{
 .low{
     flex-direction: row;
     margin-top: 10px;
-    height: 750px;
 }
 
 .content{
@@ -151,4 +149,51 @@ body{
 #p{
     display: block;
     padding-bottom: 20px;
+}
+
+.textlife{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#orch{
+    margin-left: 65px;
+    display: block;
+    height: auto;
+    width: 870px;
+}
+
+li{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+#ulp{
+    padding-left: 50px;
+    font-size: 20px;
+}
+p i{
+    font-weight: 600;
+}
+
+div.aboutwork p{
+    padding: 15px 20px 0 20px;
+    font-size: 20px;
+}
+
+div.aboutwork img{
+    width: 450px;
+    height: 350px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+#schedule{
+    width: 600px;
+    height: 350px;
 }

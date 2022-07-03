@@ -9,29 +9,72 @@
     <div class="container main">
         <div class="container header">
             <div class="container">
-                <h1 class="title">Сергей Квасов</h1>
+                <!--Начало шапки-->
+                <h1 class="title">Сергей Кузнецов</h1>
             </div>
             <div class="container right">
                 <p class="right">Мои контакты</p>
                 <a target="_blank" href="https://vk.com/i_am_in_love_with_kvas"><img src="img/vklogo2.jpg" id="logos"></a>
                 <a target="_blank" href="https://github.com/sergeyk321"><img src="img/gitlogo.jpg" id="logos"></a>
                 <a target="_blank" href="https://steamcommunity.com/id/lemurtoes1/"><img src="img/steamlogo.jpg" id="logos"></a>
+                <p class="phone">+79093166785</p>
             </div>
         </div>
+        <!--Конец шапки-->
             <div class="container low">
                 <div class="container">
                     <div class="menu_left">
+                        <!--Левое меню-->
                         <a href="index.html">Главная</a>
                         <hr>
                         <a href="works.html">Мои работы</a>
                         <hr>
+                        <a href="life.html">Моя жизнь</a>
+                        <hr>    
                         <a href="contacts.html">Связаться со мной</a>
                         <hr>
                         <a target="_blank" href="http://mtuci.ru">Сайт МТУСИ</a>
                     </div>
                 </div>
+                <!--Левое меню-->
                 <div class="content">
-                    <p class="abz">Мои работы...</p>
+                    <!--Контент-->
+                    <p class="textlife" id="pw">Во время обучения в МТУСИ я создал такие
+                        небольшие проекты, как:
+                        <ul>
+                            <li>Приложение - калькулятор</li>
+                                <p id="ulp">Используемые библиотеки: <i>PyQt5.QtWidgets</i></p>
+                                <div class="aboutwork">
+                                    <p>Это первое задание в первом семестре, калькулятор умеет выполнять простейшие
+                                        арифметические операции, такие как сложение, вычитание, деление, умножение.
+                                    </p>
+                                </div>
+                            <li>Простой телеграм - бот</li>
+                            <p id="ulp">Используемые библиотеки: <i>Telebot</i></p>
+                                <div class="aboutwork">
+                                    <p>Бот отвечает на простые прописанные команды, такие как '/help', 'Кто тебя создал?
+                                        'Как дела?'.
+                                    </p>
+                                    <img src="img/simplebot.jpg" alt="">
+                                </div>
+                            <li>Телеграм - бот с расписанием занятий</li>
+                            <p id="ulp">Используемые библиотеки: <i>Telebot, psycopg2, datetime</i></p> 
+                                <div class="aboutwork">
+                                    <p>Этот бот является модернизацией простого телеграм - бота. Выводит расписание по запросу
+                                        на сегодня, завтра, текущую неделю, следующую неделю. 
+                                    </p>
+                                    <img src="img/schedulebot.jpg" alt="">
+                                </div>
+                            <li>Приложение для работы с расписанем</li>
+                            <p id="ulp">Используемые библиотеки: <i>PyQt5, psycopg2, sys</i></p> 
+                                <div class="aboutwork">
+                                    <p>В свою очередь этот бот - модернизация телеграм бота с расписанием.
+                                        Появилась возможность добавить и удалить занятие.
+                                    </p>
+                                    <img src="img/uischedule.jpg" alt="" id="schedule">
+                                </div>
+                        </ul>
+                    </p>
                 </div>
             </div>
         </div>
