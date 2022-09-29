@@ -55,6 +55,10 @@ body{
     text-decoration: none;
 }
 
+.menu_left a:link, a:visited{
+    color:blue;
+}
+
 .info{
     display: block;
     padding: 50px;
