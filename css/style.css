@@ -12,12 +12,13 @@ body{
     display: flex;
 }
 
-.mainphoto{
+#mainphoto{
     display: flex;
     margin-left: 15px;
     width: auto;
     height: 687px;
     margin-bottom: 16px;
+    border-radius: 8px;
 }
 
 .head{
@@ -167,6 +168,12 @@ body{
     height: auto;
     width: 870px;
     padding: 20px 0 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#orch:hover{
+    opacity: 0.85;
 }
 
 li{
@@ -195,12 +202,6 @@ p i{
     margin-top: 15px;
     margin-left: 15px;
     border-radius: 7px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.aboutwork img:hover{
-    opacity: 0.8;
 }
 
 #schedule{
@@ -267,8 +268,4 @@ ul{
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
-}
-
-#img01{
-    border-radius: 10px;
 }

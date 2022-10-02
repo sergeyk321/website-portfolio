@@ -39,9 +39,36 @@
                     <!--Контент-->
                     <p class="textlife"><i>Я с друзьями на CINEMA ORCHESTRA MEDLEY:</i></p>
                     <img src="img/orchestra.jpg" alt="" id="orch">
-                    <p class="textlife"><i>И на Роза Хуторе:</i></p>
-                    <img src="img/krasnayapolyana.jpg" alt="" id="orch">
                 </div>
             </div>
         </div>
     </div>
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
+
+    <script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("orch");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    }
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+    modal.style.display = "none";
+    }
+    </script>
+</body>
+</html>
